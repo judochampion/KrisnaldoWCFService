@@ -25,7 +25,7 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Users\jally\documents\visual studio 2015\Projects\WindowsAzure2\WindowsAzure2\rcf\Release\WCFServiceWebRole1Content\" />
+        <SourceDirectory path="C:\Users\jally\Documents\Visual Studio 2015\Projects\WindowsAzure2\WindowsAzure2\rcf\Release\WCFServiceWebRole1Content\" />
       </Content>
     </Contents>
   </WebRole>

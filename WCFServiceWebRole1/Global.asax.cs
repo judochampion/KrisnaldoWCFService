@@ -22,7 +22,8 @@ namespace WCFServiceWebRole1
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "http://krisnaldoapp.azurewebsites.net");
+            //HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "http://krisnaldoapp.azurewebsites.net");
+            HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "*");
             if (HttpContext.Current.Request.HttpMethod == "OPTIONS")
             {
                 HttpContext.Current.Response.AddHeader("Access-Control-Allow-Methods", "POST, PUT, DELETE");
